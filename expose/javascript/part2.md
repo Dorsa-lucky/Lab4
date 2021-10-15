@@ -43,6 +43,8 @@
         C. 2 == '2' output is true. When comparing values of different types, JavaScript converts the values to numbers.Therefore, 2 is equal to 2. 
         D. 2 === '2' output is false. Becasue === operator checks the datatype of variables that's why the output is false. 
         E. true == 2 output is false. True becomes one, so one is not equal to two. 
-        F. true === Boolean(2) output is true. 
+        F. true === Boolean(2) output is true. Boolean(2) becomes true, so, true is equal to ture. 
 
     15. == is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but it checks datatype and compare two values. 
+   
+   13. [2, 4, 6]. We pass two arguments to the modifyArray function, one of the argument is array and other one is function. After declaring the constant array in line 2, then inside of for loops, the function doSomething is called and passed a value of index zero in an array as argument to the function. Since the value of index zero is one, it will be multiplied to two and then we push the answer to the newArr array. and we do this process three times, since the length of the array is three. 
